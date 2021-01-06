@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ordersPickedUp"
+        android:title="@string/order_taken">
+
+    </item>
+    <item
+        android:id="@+id/ordersCancelled"
+        android:title="@string/order_canceled">
+
+    </item>
+    <item
+        android:id="@+id/ordersCompleted"
+        android:title="@string/order_completed">
+
+    </item>
+    <item
+        android:id="@+id/allOrders"
+        android:title="@string/all_orders">
+
+    </item>
+</menu>

@@ -1,0 +1,44 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/foodImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/milktea"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/foodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|left"
+            android:text="@string/dish_name_ff"
+            android:textColor="@color/colorOrange"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/foodPrice"
+            android:layout_gravity="bottom|left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F000"
+            android:textSize="20sp"
+            android:text="@string/dish_price_ff"/>
+        <TextView
+            android:id="@+id/foodUnit"
+            android:layout_gravity="bottom|right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#F000"
+            android:textSize="20sp"
+            android:text="@string/dish_currency"/>
+    </FrameLayout>
+
+</LinearLayout>
